@@ -1,0 +1,47 @@
+body {
+  font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+  /* overflow-y: hidden; */
+}
+
+h1 {
+  text-align: center;
+  color: #4caf50;
+  font-size: 2.5rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  margin: 10px 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.15s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px #0001;
+}
+
+button:hover:not(:disabled) {
+  background-color: #45a049;
+  transform: scale(1.08);
+  box-shadow: 0 4px 16px #0002;
+}
+
+button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+button:disabled {
+  background-color: #bbb !important;
+  color: #fff !important;
+  cursor: not-allowed;
+}
+
+p {
+  font-size: 1.3rem;
+}

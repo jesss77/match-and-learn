@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "type": "mcq",
+    "sentence": "The ___ is on the car.",
+    "options": ["bird", "on", "is"],
+    "correctAnswer": "bird",
+    "image": "/images/level_1.png"
+  },
+  {
+    "id": 2,
+    "type": "mcq",
+    "sentence": "The dog ___ running.",
+    "options": ["is", "cat", "on"],
+    "correctAnswer": "is",
+    "image": "/images/level_2.png"
+  },
+{
+    "id": 3,
+    "type": "mcq",
+    "sentence": "The ___ is eating.",
+    "options": ["cat", "is", "on"],
+    "correctAnswer": "cat",
+    "image": "/images/level_3.png"
+  },
+
+  {
+    "id": 4,
+    "type": "fill",
+    "sentence": "A ___ is under the tree.",
+    "correctAnswer": "cat",
+    "image": "/images/level_4.png"
+  },
+
+  {
+    "id": 5,
+    "type": "fill",
+    "sentence": "The bird ___ flying.",
+    "correctAnswer": "is",
+    "image": "/images/level_5.png"
+  },
+  {
+    "id": 6,
+    "type": "mcq",
+    "sentence": "The cat is ___ the box.",
+    "options": ["under", "cat", "is"],
+    "correctAnswer": "under",
+    "image": "/images/level_6.png"
+  },
+  {
+    "id": 7,
+    "type": "drag",
+    "sentenceTemplate": "The dog is [relationship] the tree.",
+    "blanks": ["relationship"],
+    "draggableWords": ["on", "under", "dog"],
+    "correctOrder": ["under"],
+    "image": "/images/level_7.png"
+  },
+  {
+    "id": 8,
+    "type": "drag",
+    "sentenceTemplate": "The [noun] is on the [object].",
+    "blanks": ["noun", "object"],
+    "draggableWords": ["cat", "dog", "table", "car", "bird"],
+    "correctOrder": ["cat", "table"],
+    "image": "/images/level_8.png"
+  },
+  {
+    "id": 9,
+    "type": "fill",
+    "sentence": "A ___ is sleeping.",
+    "correctAnswer": "dog",
+    "image": "/images/level_9.png"
+  },
+  
+  {
+    "id": 10,
+    "type": "fill",
+    "sentence": "A ___ is jumping.",
+    "correctAnswer": "rabbit",
+    "image": "/images/level_10.png"
+  },
+  {
+    "id": 11,
+    "type": "mcq",
+    "sentence": "The dog ___ the bone.",
+    "options": ["eats", "is", "cat"],
+    "correctAnswer": "eats",
+    "image": "/images/level_11.png"
+  },
+  {
+    "id": 12,
+    "type": "mcq",
+    "sentence": "The children ___ outside.",
+    "options": ["play", "plays", "sleep"],
+    "correctAnswer": "play",
+    "image": "/images/level_12.png"
+  },
+  {
+    "id": 13,
+    "type": "mcq",
+    "sentence": "Which sentence is correct?",
+    "options": [
+      "The cats are sleeping.",
+      "The cats play in the yard.",
+      "The cats eat pizza."
+    ],
+    "correctAnswer": "The cats play in the yard.",
+    "image": "/images/level_13.png"
+  },
+  {
+    "id": 14,
+    "type": "mcq",
+    "sentence": "Which sentence is correct?",
+    "options": [
+      "The kids are playing outside.",
+      "The dogs eat ice cream.",
+      "The dogs run fast." 
+    ],
+    "correctAnswer": "The dogs run fast.",
+    "image": "/images/level_14.png"
+  },
+  {
+    "id": 15,
+    "type": "mcq",
+    "sentence": "Which sentence is correct?",
+    "options": [
+      "The children play with the ball.",
+      "The children eat the ball.",
+      "The children are at school."
+    ],
+    "correctAnswer": "The children play with the ball.",
+    "image": "/images/level_15.png"
+  },
+  {
+    "id": 16,
+    "type": "mcq",
+    "sentence": "Which sentence is correct?",
+    "options": [
+      "The rabbits are eating carrots.",
+      "The rabbits jump high.",
+      "The dog jumps high."
+    ],
+    "correctAnswer": "The rabbits jump high.",
+    "image": "/images/level_16.png"
+  },
+  {
+    "id": 17,
+    "type": "mcq",
+    "sentence": "What is the monkey doing?",
+    "options": [
+      "Flying in the air",
+      "Hanging from the tree",
+      "Sleeping in a cave"
+    ],
+    "correctAnswer": "Hanging from the tree",
+    "image": "/images/level_17.png"
+  },
+    {
+      "id": 18,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "The fish are flying in the sky.",
+        "The birds swim in the ocean.",
+        "The birds are flying in the sky."
+      ],
+      "correctAnswer": "The birds are flying in the sky.",
+      "image": "/images/level_18.png"
+    },
+    {
+      "id": 19,
+      "type": "drag",
+      "sentenceTemplate": "The [adjective] rabbit is [verb] on the grass.",
+      "blanks": ["adjective", "verb"],
+      "draggableWords": ["brown", "rabbit", "jumping", "blue", "fish", "swimming"],
+      "correctOrder": ["brown", "jumping"],
+      "image": "/images/level_19.png"
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Before lunch, we should ___ our hands.",
+      "correctAnswer": "wash",
+      "image": "/images/level_20.png"
+    }
+  ]  
+  
